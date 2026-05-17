@@ -20,7 +20,6 @@
 | 6 | **Tri Operator SIM Status Check** | Cek status SIM kartu Tri |
 | 11 | **Spam Bot Telegram** | Spam pesan via Telegram Bot |
 | 12 | **CCTV Public Scraper** | Scraper CCTV publik 193 negara |
-| 13 | **Spam OTP Telegram (Python)** | Spam BOT Telegram |
 
 ## 🔧 Persyaratan
 
