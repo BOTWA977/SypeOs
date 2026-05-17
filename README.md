@@ -28,3 +28,6 @@
 pkg update && pkg upgrade -y
 pkg install bash
 pkg install nodejs npm -y
+bash pye.sh
+intro video di terminal tunggu sampai selesai
+edit boleh di izin kan karena memang tools free
