@@ -15,17 +15,17 @@
 |----|-------|-----------|
 | 2 | **APILayer Number Validation** | Validasi nomor telepon internasional |
 | 3 | **Kode Pos Indonesia Lookup** | Pencarian kode pos seluruh Indonesia |
-| 4 | **NIK Lookup** | Pencarian data berdasarkan NIK (Dukcapil) |
-| 5 | **WormGPT Spam Email** | Spam registrasi email ke WormGPT |
+| 4 | **NIK Lookup** | Pencarian data berdasarkan NIK|
+| 5 | **WormGPT Spam Email** | Spam registrasi email ke GPT |
 | 6 | **Tri Operator SIM Status Check** | Cek status SIM kartu Tri |
 | 11 | **Spam Bot Telegram** | Spam pesan via Telegram Bot |
 | 12 | **CCTV Public Scraper** | Scraper CCTV publik 193 negara |
-| 13 | **Spam OTP Telegram (Python)** | Spam OTP Telegram menggunakan Python |
+| 13 | **Spam OTP Telegram (Python)** | Spam BOT Telegram |
 
 ## 🔧 Persyaratan
 
 ### Termux / Linux
 ```bash
 pkg update && pkg upgrade -y
-pkg install bash curl jq python3 -y
-pkg install nodejs npm -y  # Optional untuk beberapa fitur
+pkg install bash
+pkg install nodejs npm -y
