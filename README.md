@@ -1,67 +1,54 @@
 <div align="center">
   
-# EYESPION OSINT v1.5
-
-![Version](https://img.shields.io/badge/version-1.5-red?style=for-the-badge)
-![Bash](https://img.shields.io/badge/shell-bash-green?style=for-the-badge)
-![Termux](https://img.shields.io/badge/platform-Termux-blue?style=for-the-badge)
-
+# ███████╗██╗   ██╗███████╗███████╗██████╗ ██╗ ██████╗ ███╗   ██╗
+# ██╔════╝╚██╗ ██╔╝██╔════╝██╔════╝██╔══██╗██║██╔═══██╗████╗  ██║
+# █████╗   ╚████╔╝ ███████╗█████╗  ██████╔╝██║██║   ██║██╔██╗ ██║
+# ██╔══╝    ╚██╔╝  ╚════██║██╔══╝  ██╔═══╝ ██║██║   ██║██║╚██╗██║
+# ███████╗   ██║   ███████║███████╗██║     ██║╚██████╔╝██║ ╚████║
+# ╚══════╝   ╚═╝   ╚══════╝╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                                      
+██████╗ ███████╗██╗   ██╗███████╗██████╗ ██╗██╗   ██╗ █████╗ ████████╗███████╗
+██╔══██╗██╔════╝██║   ██║██╔════╝██╔══██╗██║╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔════╝
+██████╔╝█████╗  ██║   ██║█████╗  ██████╔╝██║ ╚████╔╝ ███████║   ██║   █████╗  
+██╔══██╗██╔══╝  ╚██╗ ██╔╝██╔══╝  ██╔══██╗██║  ╚██╔╝  ██╔══██║   ██║   ██╔══╝  
+██║  ██║███████╗ ╚████╔╝ ███████╗██║  ██║██║   ██║   ██║  ██║   ██║   ███████╗
+╚═╝  ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚══════╝
+                                                                      
 </div>
+
+<p align="center">
+  <img src="https://files.catbox.moe/r78cen.mp4" width="85%">
+</p>
 
 ---
 
 <div align="center">
   
-<img src="https://files.catbox.moe/r78cen.mp4" alt="" width="90%">
+## @deepsek12_bot
+
+[![Telegram](https://img.shields.io/badge/TELEGRAM-@deepsek12_bot-2CA5E0?style=for-the-badge)](https://t.me/deepsek12_bot)
 
 </div>
 
----
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## BOT TELEGRAM
+###  ABILITY
 
-<div align="center">
-  
-### @deepsek12_bot
+|  |  |  |
+|--|--|--|
+| GETCONTACT | SPAM PAIRING NOTIF | SPAM SMS |
+| TRUECALLER | TELEGRAM ID TO NOMOR | CEK KODE POS |
+| CEK NIK PARSE | PHONE TO NIK | NIK TO PHONE |
+| LEAK NAMA LENGKAP | SPAM GMAIL | CEK THRE 3 |
 
-[![Telegram](https://img.shields.io/badge/Telegram-@deepsek12_bot-blue?style=for-the-badge)](https://t.me/deepsek12_bot)
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-</div>
+###  INSTALL
 
-### FITUR BOT:
-
-| No | Fitur |
-|----|-------|
-| 1 | GETCONTACT |
-| 2 | SPAM PAIRING NOTIF |
-| 3 | SPAM SMS |
-| 4 | TRUECALLER |
-| 5 | TELEGRAM ID TO NOMOR |
-| 6 | CEK KODE POS |
-| 7 | CEK NIK PARSE |
-| 8 | PHONE TO NIK |
-| 9 | NIK TO PHONE |
-| 10 | LEAK NAMA LENGKAP |
-| 11 | SPAM GMAIL |
-| 12 | CEK THRE 3 |
-
----
-
-## INSTALL
-
-<div align="center">
-
-<a href="#">
-  <img src="https://img.shields.io/badge/INSTALL-UPDATE-blue?style=for-the-badge">
-</a>
-
-<a href="#">
-  <img src="https://img.shields.io/badge/INSTALL-BASH-green?style=for-the-badge">
-</a>
-
-</div>
-
-### PERINTAH:
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/UPDATE-blue?style=for-the-badge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/BASH-green?style=for-the-badge"></a>
+</p>
 
 ```bash
 pkg update && pkg upgrade -y
