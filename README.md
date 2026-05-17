@@ -14,40 +14,66 @@
 ---
 
 <div align="center">
+  
+### EYESPION
 
-<!-- Video Demo dari Catbox -->
-<a href="https://files.catbox.moe/r78cen.mp4" target="_blank">
-  <img src="https://img.shields.io/badge/🎬_KLIK_UNTUK_VIDEO_DEMO-FF0000?style=for-the-badge&logo=video&logoColor=white" width="350">
-</a>
-
-<br>
-<br>
-
-<video src="https://files.catbox.moe/r78cen.mp4" controls width="100%" poster="https://via.placeholder.com/800x450?text=EYESPION+Demo+Video">
-  Your browser does not support the video tag.
-</video>
-
-**Atau klik link ini:** [https://files.catbox.moe/r78cen.mp4](https://files.catbox.moe/r78cen.mp4)
+<!-- HTML -->
+<p align="center">
+  <video autoplay loop muted playsinline width="90%">
+    <source src="https://files.catbox.moe/r78cen.mp4" type="video/mp4">
+    <img src="https://via.placeholder.com/800x450?text=EYESPION+Demo+Video" alt="Demo">
+  </video>
+</p>
 
 </div>
 
 ---
 
-## Bot OSINT Berbayar
+## BOT OSINT BERBAYAR
 
 <div align="center">
   
 ### 🔥 **@deepsek12_bot** 🔥
-### *Bot OSINT Berbayar - Versi Work 100%*
+### *Bot OSINT*
 
 [![Telegram](https://img.shields.io/badge/📱_HUBUNGI_BOT_SEKARANG-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=red&color=red)](https://t.me/deepsek12_bot)
 
 ```diff
-+ ✓ Bot OSINT Premium + 
-+ ✓ Full Akses Semua Fitur +
-+ ✓ Update Berkala +
-+ ✓ Support 24/7 +
++ ✓ BOT OSINT PREMIUM BERBAYAR +
++ ✓ FULL AKSES SEMUA FITUR +
++ ✓ UPDATE BERKALA +
++ ✓ SUPPORT 24/7 +
++ ✓ ANTI BAN + 
++ ✓ WORK 100% +
 
+<div align="center">
+  
+# EYESPION - OSINT Tool v1.5
+
+</div>
+
+## 🚀 INSTALLASI
+
+<div align="center">
+
+### 📦 KLIK TOMBOL UNTUK COPY PERINTAH
+
+<!-- Button 1 -->
+<a href="https://github.com/yourusername/eyespion?raw=1" onclick="navigator.clipboard.writeText('pkg update && pkg upgrade -y')">
+  <img src="https://img.shields.io/badge/🔄_UPDATE_&_UPGRADE-2CA5E0?style=for-the-badge&logo=terminal&logoColor=white" width="300">
+</a>
+
+<br><br>
+
+<!-- Button 2 -->
+<a href="#" onclick="navigator.clipboard.writeText('pkg install bash')">
+  <img src="https://img.shields.io/badge/🐚_INSTALL_BASH-28A745?style=for-the-badge&logo=gnu-bash&logoColor=white" width="300">
+</a>
+
+</div>
+
+### Atau copy manual:
+
+```bash
 pkg update && pkg upgrade -y
-pkg install bash 
-pkg install nodejs npm -y
+pkg install bash
