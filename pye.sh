@@ -773,49 +773,6 @@ PY
     esac
 }
 
-spam_telegram_otp_python() {
-    clear
-    spam_otp_ascii
-    echo -e "${WHITE}========================================${NC}"
-    echo -e "${RED}       SPAM OTP TELEGRAM (PYTHON)${NC}"
-    echo -e "${WHITE}========================================${NC}\n"
-    
-    local PYTHON_SCRIPT="$HOME/spye/telegram_spam.py"
-    
-    if [ ! -f "$PYTHON_SCRIPT" ]; then
-        echo -e "${RED}[!] File telegram_spam.py tidak ditemukan di $PYTHON_SCRIPT${NC}"
-        echo -e "${YELLOW}[!] Pastikan file ada di folder ~/spye/${NC}"
-        read -p "Tekan Enter untuk kembali..."
-        return
-    fi
-    
-    read -p "Masukkan nomor target (628xxx): " target_phone
-    if [[ -z "$target_phone" ]]; then
-        echo -e "${RED}[!] Nomor tidak boleh kosong!${NC}"
-        read -p "Tekan Enter untuk kembali..."
-        return
-    fi
-    
-    read -p "Jumlah spam: " spam_count
-    if [[ -z "$spam_count" || ! "$spam_count" =~ ^[0-9]+$ ]]; then
-        echo -e "${YELLOW}[!] Jumlah tidak valid, menggunakan default 3${NC}"
-        spam_count=3
-    fi
-    
-    read -p "Delay (detik): " delay
-    if [[ -z "$delay" || ! "$delay" =~ ^[0-9]+$ ]]; then
-        echo -e "${YELLOW}[!] Delay tidak valid, menggunakan default 10${NC}"
-        delay=10
-    fi
-    
-    echo -e "${RED}[*] Memulai spam...${NC}\n"
-    
-    python3 "$PYTHON_SCRIPT" "$target_phone" "$spam_count" "$delay"
-    
-    echo ""
-    read -p "Tekan Enter untuk kembali..."
-}
-
 menu_utama() {
     clear
     menu_ascii
@@ -827,7 +784,6 @@ menu_utama() {
     echo -e "${GREEN}6.${NC} Tri Operator SIM Status Check"
     echo -e "${GREEN}11.${NC} Spam Bot Telegram"
     echo -e "${GREEN}12.${NC} CCTV Public Scraper"
-    echo -e "${GREEN}13.${NC} Spam OTP Telegram (Python)"
     echo -e "${RED}0.${NC} Exit"
     echo -e "${WHITE}========================================${NC}"
     read -p "Pilih menu [0,2-6,11-13]: " choice
@@ -840,7 +796,6 @@ menu_utama() {
         6) tri_check ;;
         11) spam_bot_telegram ;;
         12) cctv_scraper ;;
-        13) spam_telegram_otp_python ;;
         0) echo -e "${RED}Terima kasih telah menggunakan EYESPION!${NC}"; exit 0 ;;
         *) echo -e "${RED}[!] Pilihan tidak valid!${NC}"; sleep 2; menu_utama ;;
     esac
@@ -880,21 +835,4 @@ main_menu() {
     read
     menu_utama
 }
-
-check_deps() {
-    if ! command -v curl &> /dev/null; then
-        echo -e "${RED}[!] curl tidak ditemukan! Install dengan: apt install curl -y${NC}"
-        exit 1
-    fi
-    if ! command -v jq &> /dev/null; then
-        echo -e "${YELLOW}[!] jq tidak ditemukan, output JSON akan kurang rapi${NC}"
-        echo -e "${YELLOW}Install: apt install jq -y${NC}"
-    fi
-    if ! command -v python3 &> /dev/null; then
-        echo -e "${YELLOW}[!] python3 tidak ditemukan (untuk CCTV scraper & Telegram OTP)${NC}"
-        echo -e "${YELLOW}Install: pkg install python -y${NC}"
-    fi
-}
-
-check_deps
 main_menu
