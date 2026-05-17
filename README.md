@@ -12,11 +12,7 @@
 
 <div align="center">
   
-<p align="center">
-  <video autoplay loop muted playsinline width="90%">
-    <source src="https://files.catbox.moe/r78cen.mp4" type="video/mp4">
-  </video>
-</p>
+<img src="https://files.catbox.moe/r78cen.mp4" alt="demo" width="90%">
 
 </div>
 
@@ -31,6 +27,23 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@deepsek12_bot-blue?style=for-the-badge)](https://t.me/deepsek12_bot)
 
 </div>
+
+### FITUR BOT:
+
+| No | Fitur |
+|----|-------|
+| 1 | GETCONTACT |
+| 2 | SPAM PAIRING NOTIF |
+| 3 | SPAM SMS |
+| 4 | TRUECALLER |
+| 5 | TELEGRAM ID TO NOMOR |
+| 6 | CEK KODE POS |
+| 7 | CEK NIK PARSE |
+| 8 | PHONE TO NIK |
+| 9 | NIK TO PHONE |
+| 10 | LEAK NAMA LENGKAP |
+| 11 | SPAM GMAIL |
+| 12 | CEK THRE 3 |
 
 ---
 
