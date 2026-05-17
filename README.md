@@ -1,34 +1,53 @@
-# EYESPION - OSINT Tool v1.5
+<div align="center">
+  
+# <img src="https://telegram.org/img/favicon.ico" width="30" height="30"> EYESPION - OSINT Tool v1.5
 
-![Version](https://img.shields.io/badge/version-1.5-red)
-![Bash](https://img.shields.io/badge/shell-bash-green)
-![OS](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-blue)
-![Telegram](https://t.me/@deepsek12_bot)
+![Version](https://img.shields.io/badge/version-1.5-red?style=for-the-badge)
+![Bash](https://img.shields.io/badge/shell-bash-green?style=for-the-badge&logo=gnu-bash)
+![OS](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-blue?style=for-the-badge&logo=linux)
+![Telegram](https://img.shields.io/badge/Telegram-@deepsek12_bot-blue?style=for-the-badge&logo=telegram)
 
-**EYESPION** adalah tools OSINT (Open Source Intelligence) yang dirancang untuk melakukan pengumpulan informasi dan testing keamanan. Tools ini khusus untuk tujuan educational dan security testing.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=500&color=F70000&center=true&vCenter=true&width=600&lines=EYESPION+OSINT+TOOL;Open+Source+Intelligence;Security+Testing+Tool)](https://git.io/typing-svg)
 
-## ⚠️ Disclaimer
-> Tools ini dibuat untuk tujuan edukasi dan testing keamanan. Penggunaan diluar tanggung jawab pengguna. Gunakan dengan bijak dan hanya pada target yang memiliki izin.
+</div>
 
-## 📋 Daftar Fitur
+---
 
-| No | Fitur | Deskripsi |
-|----|-------|-----------|
-| 2 | **APILayer Number Validation** | Validasi nomor telepon internasional |
-| 3 | **Kode Pos Indonesia Lookup** | Pencarian kode pos seluruh Indonesia |
-| 4 | **NIK Lookup** | Pencarian data berdasarkan NIK|
-| 5 | **WormGPT Spam Email** | Spam registrasi email ke GPT |
-| 6 | **Tri Operator SIM Status Check** | Cek status SIM kartu Tri |
-| 11 | **Spam Bot Telegram** | Spam pesan via Telegram Bot |
-| 12 | **CCTV Public Scraper** | Scraper CCTV publik 193 negara |
+<div align="center">
 
-## 🔧 Persyaratan
+<!-- Video Demo dari Catbox -->
+<a href="https://files.catbox.moe/r78cen.mp4" target="_blank">
+  <img src="https://img.shields.io/badge/🎬_KLIK_UNTUK_VIDEO_DEMO-FF0000?style=for-the-badge&logo=video&logoColor=white" width="350">
+</a>
 
-### Termux / Linux
-```bash
+<br>
+<br>
+
+<video src="https://files.catbox.moe/r78cen.mp4" controls width="100%" poster="https://via.placeholder.com/800x450?text=EYESPION+Demo+Video">
+  Your browser does not support the video tag.
+</video>
+
+**Atau klik link ini:** [https://files.catbox.moe/r78cen.mp4](https://files.catbox.moe/r78cen.mp4)
+
+</div>
+
+---
+
+## Bot OSINT Berbayar
+
+<div align="center">
+  
+### 🔥 **@deepsek12_bot** 🔥
+### *Bot OSINT Berbayar - Versi Work 100%*
+
+[![Telegram](https://img.shields.io/badge/📱_HUBUNGI_BOT_SEKARANG-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=red&color=red)](https://t.me/deepsek12_bot)
+
+```diff
++ ✓ Bot OSINT Premium + 
++ ✓ Full Akses Semua Fitur +
++ ✓ Update Berkala +
++ ✓ Support 24/7 +
+
 pkg update && pkg upgrade -y
-pkg install bash
+pkg install bash 
 pkg install nodejs npm -y
-bash pye.sh
-intro video di terminal tunggu sampai selesai
-edit boleh di izin kan karena memang tools free
