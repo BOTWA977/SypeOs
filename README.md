@@ -12,7 +12,7 @@
 
 <div align="center">
   
-<img src="https://files.catbox.moe/r78cen.mp4" alt="demo" width="90%">
+<img src="https://files.catbox.moe/r78cen.mp4" alt="" width="90%">
 
 </div>
 
