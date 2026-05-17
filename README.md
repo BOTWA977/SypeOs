@@ -3,6 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.5-red)
 ![Bash](https://img.shields.io/badge/shell-bash-green)
 ![OS](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-blue)
+![Telegram](https://t.me/@deepsek12_bot)
 
 **EYESPION** adalah tools OSINT (Open Source Intelligence) yang dirancang untuk melakukan pengumpulan informasi dan testing keamanan. Tools ini khusus untuk tujuan educational dan security testing.
 
