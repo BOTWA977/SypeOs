@@ -1,86 +1,49 @@
-<head>
-  <style>
-    .typing-demo {
-      width: 22ch;
-      animation: typing 2s steps(22), blink 0.5s step-end infinite alternate, erase 4s steps(22) 2s infinite;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 3px solid;
-      font-family: monospace;
-      font-size: 2em;
-      margin: 0 auto;
-    }
+<div align="center">
+  
+# <img src="https://telegram.org/img/favicon.ico" width="30" height="30"> EYESPION - OSINT Tool v1.5
 
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 22ch; }
-    }
+![Version](https://img.shields.io/badge/version-1.5-red?style=for-the-badge)
+![Bash](https://img.shields.io/badge/shell-bash-green?style=for-the-badge&logo=gnu-bash)
+![OS](https://img.shields.io/badge/platform-Termux%20%7C%20Linux-blue?style=for-the-badge&logo=linux)
+![Telegram](https://img.shields.io/badge/Telegram-@deepsek12_bot-blue?style=for-the-badge&logo=telegram)
 
-    @keyframes blink {
-      50% { border-color: transparent; }
-    }
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=500&color=F70000&center=true&vCenter=true&width=600&lines=EYESPION+OSINT+TOOL;Open+Source+Intelligence;Security+Testing+Tool)](https://git.io/typing-svg)
 
-    @keyframes erase {
-      0%, 100% { width: 22ch; }
-      50% { width: 0; }
-    }
-  </style>
-</head>
+</div>
+
+---
 
 <div align="center">
-  <div class="typing-demo">OSINT = Open Source Intelligence</div>
-</div>
+  
+<!-- Video Demo dari Catbox -->
+<a href="https://files.catbox.moe/r78cen.mp4" target="_blank">
+  <img src="https://img.shields.io/badge/_KLIK_UNTUK_VIDEO-FF0000?style=for-the-badge&logo=video&logoColor=white" width="350">
+</a>
 
 <br>
+<br>
 
-<div align="center">
-  
-⠤⣤⣤⣤⣄⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣠⣤⠤⠤⠴⠶⠶⠶⠶
-⢠⣤⣤⡄⣤⣤⣤⠄⣀⠉⣉⣙⠒⠤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠘⣉⢡⣤⡤⠐⣶⡆⢶⠀⣶⣶⡦
-⣄⢻⣿⣧⠻⠇⠋⠀⠋⠀⢘⣿⢳⣦⣌⠳⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠞⣡⣴⣧⠻⣄⢸⣿⣿⡟⢁⡻⣸⣿⡿⠁
-⠈⠃⠙⢿⣧⣙⠶⣿⣿⡷⢘⣡⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣷⣝⡳⠶⠶⠾⣛⣵⡿⠋⠀⠀
-⠀⠀⠀⠀⠉⠻⣿⣶⠂⠘⠛⠛⠛⢛⡛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠛⠀⠉⠒⠛⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⢸⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢻⡁⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+<video src="https://files.catbox.moe/r78cen.mp4" controls width="100%" poster="https://via.placeholder.com/800x450?text=EYESPION+Demo+Video">
+  Your browser does not support the video tag.
+</video>
 
-</div>
-
-<div align="center">
-  
-![Version](https://img.shields.io/badge/version-1.5-red?style=for-the-badge)
-![Bash](https://img.shields.io/badge/shell-bash-green?style=for-the-badge)
-![Termux](https://img.shields.io/badge/platform-Termux-blue?style=for-the-badge)
-
-</div>
-
-<div align="center">
-  
-## @deepsek12_bot
-
-[![Telegram](https://img.shields.io/badge/TELEGRAM-@deepsek12_bot-2CA5E0?style=for-the-badge)](https://t.me/deepsek12_bot)
+**Atau klik link ini:** [https://files.catbox.moe/r78cen.mp4](https://files.catbox.moe/r78cen.mp4)
 
 </div>
 
 ---
 
-### ABILITY
+## Bot OSINT Berbayar
 
-|  |  |  |
-|--|--|--|
-| GETCONTACT | SPAM PAIRING NOTIF | SPAM SMS |
-| TRUECALLER | TELEGRAM ID TO NOMOR | CEK KODE POS |
-| CEK NIK PARSE | PHONE TO NIK | NIK TO PHONE |
-| LEAK NAMA LENGKAP | SPAM GMAIL | CEK THRE 3 |
+<div align="center">
+  
+### **@deepsek12_bot** 
+### *Bot OSINT Berbayar*
 
----
+[![Telegram](https://img.shields.io/badge/📱_HUBUNGI_BOT_SEKARANG-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=red&color=red)](https://t.me/deepsek12_bot)
 
-### INSTALL
-
-```bash
-pkg update && pkg upgrade -y
-pkg install bash
+```diff
++ ✓ Bot OSINT Premium + 
++ ✓ Full Akses Semua Fitur +
++ ✓ Update Berkala +
++ ✓ Support 24/7 +
